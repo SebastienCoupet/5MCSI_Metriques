@@ -29,6 +29,10 @@ def meteo():
 @app.route("/histogramme/")
 def histogramme():
     return render_template("histogramme.html")
+
+@app.route("/contact/")
+def MaPremiereAPI():
+    return "<h2>Ma page de contact</h2>"
                                                                                                                                        
 @app.route('/')
 def hello_world():
